@@ -35,6 +35,9 @@ const Chat = () => {
   }, []);
 
   const handleTyping = (e: ChangeEvent<HTMLInputElement>) => {
+    if (!username) {
+      return;
+    }
     const newMessage = e.target.value;
     setMessage(newMessage);
 
