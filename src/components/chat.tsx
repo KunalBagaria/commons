@@ -7,7 +7,7 @@ interface TypingData {
   text: string;
 }
 
-const socket: Socket = io('http://localhost:3001');
+const socket: Socket = io('https://commons.bhawnasaharia.com');
 
 const Chat = () => {
   const [message, setMessage] = useState<string>('');
