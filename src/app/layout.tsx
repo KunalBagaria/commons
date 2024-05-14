@@ -31,6 +31,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: [
+    { url: "/favicon.ico" },
+  ],
 };
 
 export default function RootLayout({
